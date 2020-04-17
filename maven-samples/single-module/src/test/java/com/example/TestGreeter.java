@@ -40,7 +40,7 @@ public class TestGreeter {
 
   @Test
   public void andyNewTest() {
-    String someone = "Andy's new test";
+    String someone = "Andy's new test 123";
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
